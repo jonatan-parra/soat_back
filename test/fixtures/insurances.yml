@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  start_date: 2019-09-02 14:27:48
+  end_date: 2019-09-02 14:27:48
+  vehicle: one
+  tariff: one
+  user: one
+
+two:
+  start_date: 2019-09-02 14:27:48
+  end_date: 2019-09-02 14:27:48
+  vehicle: two
+  tariff: two
+  user: two

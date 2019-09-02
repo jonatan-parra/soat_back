@@ -1,0 +1,493 @@
+Started GET "/" for 127.0.0.1 at 2019-09-02 14:24:03 -0500
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/jonatan/.rvm/gems/ruby-2.6.3/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/jonatan/.rvm/gems/ruby-2.6.3/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.8ms | Allocations: 479)
+Completed 200 OK in 22ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 2623)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2019-09-02 14:24:03 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-09-02 14:24:29 -0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/jonatan/.rvm/gems/ruby-2.6.3/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/jonatan/.rvm/gems/ruby-2.6.3/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.9ms | Allocations: 340)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 1675)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2019-09-02 14:24:29 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (104.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (112.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20190902192659)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar, "first_name" varchar, "last_name" varchar, "document_type" varchar, "document_number" varchar, "phone" varchar, "auth_token" varchar, "rol" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190902192659"]]
+  [1m[35m (145.0ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateCards (20190902192722)
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "cards" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "credit_card_number" varchar, "cardholder_Name" varchar, "card_expiration_date" date, "card_security_code" integer, "number_shares" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190902192722"]]
+  [1m[35m (105.5ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateTariffs (20190902192730)
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE TABLE "tariffs" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "code" integer, "year" integer, "vehicle_class" varchar, "subtype" varchar, "age" varchar, "commercial_rate" float, "premium_value" float, "fosyga_contribution" float, "subtotal_premium_and_contribution" float, "runt_rate" float, "total_to_pay" float, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190902192730"]]
+  [1m[35m (104.6ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateVehicles (20190902192739)
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "vehicles" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "vehicle_class" varchar, "subtype" varchar, "age" integer, "number_passengers" integer, "cylinder" integer, "tons" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190902192739"]]
+  [1m[35m (105.2ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateInsurances (20190902192748)
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "insurances" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "start_date" datetime, "end_date" datetime, "vehicle_id" integer NOT NULL, "tariff_id" integer NOT NULL, "user_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_f7478c3284"
+FOREIGN KEY ("vehicle_id")
+  REFERENCES "vehicles" ("id")
+, CONSTRAINT "fk_rails_e07edb7ef0"
+FOREIGN KEY ("tariff_id")
+  REFERENCES "tariffs" ("id")
+, CONSTRAINT "fk_rails_611367bf67"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE  INDEX "index_insurances_on_vehicle_id" ON "insurances" ("vehicle_id")[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE  INDEX "index_insurances_on_tariff_id" ON "insurances" ("tariff_id")[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE  INDEX "index_insurances_on_user_id" ON "insurances" ("user_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190902192748"]]
+  [1m[35m (106.5ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateHasCards (20190902192754)
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "has_cards" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer NOT NULL, "card_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_71a98dd27c"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+, CONSTRAINT "fk_rails_03a89e1cf6"
+FOREIGN KEY ("card_id")
+  REFERENCES "cards" ("id")
+)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE  INDEX "index_has_cards_on_user_id" ON "has_cards" ("user_id")[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_has_cards_on_card_id" ON "has_cards" ("card_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190902192754"]]
+  [1m[35m (104.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-09-02 19:28:17.674389"], ["updated_at", "2019-09-02 19:28:17.674389"]]
+  [1m[35m (73.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/cards" for 127.0.0.1 at 2019-09-02 14:29:28 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CardsController#index as HTML
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT "cards".* FROM "cards"[0m
+  ↳ app/controllers/cards_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.4ms | Allocations: 1731)
+
+
+Started GET "/cards" for ::1 at 2019-09-02 14:30:29 -0500
+Processing by CardsController#index as */*
+  [1m[36mCard Load (0.1ms)[0m  [1m[34mSELECT "cards".* FROM "cards"[0m
+  ↳ app/controllers/cards_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.1ms | Allocations: 767)
+
+
+Started POST "/cards/new" for ::1 at 2019-09-02 14:35:43 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/cards/new"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/cards" for ::1 at 2019-09-02 14:35:57 -0500
+Processing by CardsController#create as */*
+  Parameters: {"{\n\t\"card\":\n\t{\n\t\t\"credit_card_number\": \"222\"\n\t\t\"cardholder_Name\": \"222\"\n\t\t\"card_expiration_date\": \"222\"\n\t\t\"card_security_code\": \"222\"\n\t\t\"number_shares\": \"222\"\n\t}\n}\n"=>nil}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 127)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: card):
+  
+app/controllers/cards_controller.rb:49:in `card_params'
+app/controllers/cards_controller.rb:18:in `create'
+Started POST "/cards" for ::1 at 2019-09-02 14:36:33 -0500
+Processing by CardsController#create as */*
+  Parameters: {"{\n\t\"card\":\n\t{\n\t\t\"credit_card_number\": \"222\",\n\t\t\"cardholder_Name\": \"222\",\n\t\t\"card_expiration_date\": \"222\",\n\t\t\"card_security_code\": \"222\",\n\t\t\"number_shares\": \"222\"\n\t}\n}\n"=>nil}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 117)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: card):
+  
+app/controllers/cards_controller.rb:49:in `card_params'
+app/controllers/cards_controller.rb:18:in `create'
+Started POST "/cards" for ::1 at 2019-09-02 14:38:03 -0500
+Processing by CardsController#create as */*
+  Parameters: {"{\n\t\"card\":\n\t{\n\t\t\"credit_card_number\": \"222\",\n\t\t\"cardholder_Name\": \"222\",\n\t\t\"card_expiration_date\": \"2018-02-02\",\n\t\t\"card_security_code\": 222,\n\t\t\"number_shares\": 22\n\t}\n}\n\n\n"=>nil}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 117)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: card):
+  
+app/controllers/cards_controller.rb:49:in `card_params'
+app/controllers/cards_controller.rb:18:in `create'
+Started GET "/cards" for ::1 at 2019-09-02 14:38:29 -0500
+Processing by CardsController#index as */*
+  [1m[36mCard Load (0.1ms)[0m  [1m[34mSELECT "cards".* FROM "cards"[0m
+  ↳ app/controllers/cards_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.1ms | Allocations: 769)
+
+
+Started GET "/cards" for ::1 at 2019-09-02 14:38:31 -0500
+Processing by CardsController#index as */*
+  [1m[36mCard Load (0.1ms)[0m  [1m[34mSELECT "cards".* FROM "cards"[0m
+  ↳ app/controllers/cards_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.1ms | Allocations: 771)
+
+
+Started POST "/cards" for ::1 at 2019-09-02 14:39:24 -0500
+Processing by CardsController#create as */*
+  Parameters: {"\n\t\"card\":\n\t{\n\t\t\"credit_card_number\": \"222\",\n\t\t\"cardholder_Name\": \"222\",\n\t\t\"card_expiration_date\": \"2018-02-02\",\n\t\t\"card_security_code\": 222,\n\t\t\"number_shares\": 22\n\t}\n\n\n"=>nil}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 117)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: card):
+  
+app/controllers/cards_controller.rb:49:in `card_params'
+app/controllers/cards_controller.rb:18:in `create'
+Started POST "/cards" for ::1 at 2019-09-02 14:39:35 -0500
+Processing by CardsController#create as */*
+  Parameters: {"\n\n\n"=>nil}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 117)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: card):
+  
+app/controllers/cards_controller.rb:49:in `card_params'
+app/controllers/cards_controller.rb:18:in `create'
+Started POST "/cards" for ::1 at 2019-09-02 14:40:01 -0500
+Processing by CardsController#create as */*
+  Parameters: {"card"=>{"credit_card_number"=>"222", "cardholder_Name"=>"222", "card_expiration_date"=>"2018-02-02", "card_security_code"=>222, "number_shares"=>22}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/cards_controller.rb:20:in `create'
+  [1m[36mCard Create (0.9ms)[0m  [1m[32mINSERT INTO "cards" ("credit_card_number", "cardholder_Name", "card_expiration_date", "card_security_code", "number_shares", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["credit_card_number", "222"], ["cardholder_Name", "222"], ["card_expiration_date", "2018-02-02"], ["card_security_code", 222], ["number_shares", 22], ["created_at", "2019-09-02 19:40:01.108671"], ["updated_at", "2019-09-02 19:40:01.108671"]]
+  ↳ app/controllers/cards_controller.rb:20:in `create'
+  [1m[35m (133.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/cards_controller.rb:20:in `create'
+Completed 201 Created in 152ms (Views: 2.6ms | ActiveRecord: 134.5ms | Allocations: 8659)
+
+
+Started GET "/cards" for ::1 at 2019-09-02 14:40:08 -0500
+Processing by CardsController#index as */*
+  [1m[36mCard Load (0.1ms)[0m  [1m[34mSELECT "cards".* FROM "cards"[0m
+  ↳ app/controllers/cards_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.1ms | Allocations: 942)
+
+
+Started GET "/cards" for 127.0.0.1 at 2019-09-02 14:40:33 -0500
+Processing by CardsController#index as HTML
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT "cards".* FROM "cards"[0m
+  ↳ app/controllers/cards_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.2ms | Allocations: 923)
+
+
+Started GET "/tariffs" for ::1 at 2019-09-02 14:43:59 -0500
+Processing by TariffsController#index as */*
+  [1m[36mTariff Load (0.2ms)[0m  [1m[34mSELECT "tariffs".* FROM "tariffs"[0m
+  ↳ app/controllers/tariffs_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.6ms | Allocations: 1624)
+
+
+Started GET "/tariffs" for ::1 at 2019-09-02 14:44:01 -0500
+Processing by TariffsController#index as */*
+  [1m[36mTariff Load (0.1ms)[0m  [1m[34mSELECT "tariffs".* FROM "tariffs"[0m
+  ↳ app/controllers/tariffs_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.1ms | Allocations: 751)
+
+
+Started POST "/tariffs" for ::1 at 2019-09-02 14:48:49 -0500
+Processing by TariffsController#create as */*
+  Parameters: {"tariff"=>{"code"=>"110", "year"=>"2017", "vehicle_class"=>"Motos", "subtype"=>"Menos de 100 c.c.", "age"=>"", "commercial_rate"=>"8,26", "premium_value"=>"203100", "fosyga_contribution"=>"101550", "subtotal_premium_and_contribution"=>"304650", "runt_rate"=>"1,610", "total_to_pay"=>"306260"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tariffs_controller.rb:20:in `create'
+  [1m[36mTariff Create (0.7ms)[0m  [1m[32mINSERT INTO "tariffs" ("code", "year", "vehicle_class", "subtype", "age", "commercial_rate", "premium_value", "fosyga_contribution", "subtotal_premium_and_contribution", "runt_rate", "total_to_pay", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["code", 110], ["year", 2017], ["vehicle_class", "Motos"], ["subtype", "Menos de 100 c.c."], ["age", ""], ["commercial_rate", 8.0], ["premium_value", 203100.0], ["fosyga_contribution", 101550.0], ["subtotal_premium_and_contribution", 304650.0], ["runt_rate", 1.0], ["total_to_pay", 306260.0], ["created_at", "2019-09-02 19:48:49.620424"], ["updated_at", "2019-09-02 19:48:49.620424"]]
+  ↳ app/controllers/tariffs_controller.rb:20:in `create'
+  [1m[35m (203.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tariffs_controller.rb:20:in `create'
+Completed 201 Created in 224ms (Views: 2.9ms | ActiveRecord: 204.4ms | Allocations: 12038)
+
+
+Started GET "/tariffs" for ::1 at 2019-09-02 14:48:56 -0500
+Processing by TariffsController#index as */*
+  [1m[36mTariff Load (0.1ms)[0m  [1m[34mSELECT "tariffs".* FROM "tariffs"[0m
+  ↳ app/controllers/tariffs_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.1ms | Allocations: 982)
+
+
+Started GET "/users" for ::1 at 2019-09-02 14:55:24 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#index as */*
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.4ms | Allocations: 1656)
+
+
+Started POST "/users" for ::1 at 2019-09-02 14:55:31 -0500
+Processing by UsersController#create as */*
+  Parameters: {"card"=>{"credit_card_number"=>"222", "cardholder_Name"=>"222", "card_expiration_date"=>"2018-02-02", "card_security_code"=>222, "number_shares"=>22}, "user"=>{}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 137)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:49:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2019-09-02 14:59:10 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"email"=>"persona@gmail.com", "first_name"=>"juan", "document_type"=>"CC", "document_number"=>222, "phone"=>222, "rol"=>"persona"}}
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.5ms | Allocations: 9494)
+
+
+  
+NameError (uninitialized constant #<Class:0x00007fed90428238>::TokenGenerationService):
+  
+app/models/user.rb:14:in `generate_auth_token'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2019-09-02 14:59:38 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"email"=>"persona@gmail.com", "first_name"=>"juan", "document_type"=>"CC", "document_number"=>222, "phone"=>222, "rol"=>"persona"}}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "first_name", "document_type", "document_number", "phone", "auth_token", "rol", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "persona@gmail.com"], ["first_name", "juan"], ["document_type", "CC"], ["document_number", "222"], ["phone", "222"], ["auth_token", "d34a7518b78dfc21966f49b83983904a"], ["rol", "persona"], ["created_at", "2019-09-02 19:59:38.467202"], ["updated_at", "2019-09-02 19:59:38.467202"]]
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[35m (225.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+Completed 201 Created in 245ms (Views: 2.4ms | ActiveRecord: 227.0ms | Allocations: 10726)
+
+
+Started GET "/users" for ::1 at 2019-09-02 14:59:46 -0500
+Processing by UsersController#index as */*
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 1024)
+
+
+Started POST "/users" for ::1 at 2019-09-02 15:02:00 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"email"=>"persona1@gmail.com", "first_name"=>"Luis", "last_name"=>"Jímenez", "document_type"=>"CC", "document_number"=>25455, "phone"=>2122, "rol"=>"persona"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "first_name", "last_name", "document_type", "document_number", "phone", "auth_token", "rol", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "persona1@gmail.com"], ["first_name", "Luis"], ["last_name", "Jímenez"], ["document_type", "CC"], ["document_number", "25455"], ["phone", "2122"], ["auth_token", "bbb55f78173724e90644c5ca02fd4595"], ["rol", "persona"], ["created_at", "2019-09-02 20:02:00.357925"], ["updated_at", "2019-09-02 20:02:00.357925"]]
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[35m (253.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+Completed 201 Created in 263ms (Views: 1.4ms | ActiveRecord: 254.4ms | Allocations: 3623)
+
+
+Started GET "/users" for ::1 at 2019-09-02 15:02:09 -0500
+Processing by UsersController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.1ms | Allocations: 1218)
+
+
+Started POST "/users" for ::1 at 2019-09-02 15:02:48 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"email"=>"admin1@gmail.com", "first_name"=>"admin", "last_name"=>"admin", "document_type"=>"CC", "document_number"=>9999, "phone"=>0, "rol"=>"administrador"}}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "first_name", "last_name", "document_type", "document_number", "phone", "auth_token", "rol", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "admin1@gmail.com"], ["first_name", "admin"], ["last_name", "admin"], ["document_type", "CC"], ["document_number", "9999"], ["phone", "0"], ["auth_token", "bb6dbd7ff876a9ab89e832b1315b321e"], ["rol", "administrador"], ["created_at", "2019-09-02 20:02:48.701170"], ["updated_at", "2019-09-02 20:02:48.701170"]]
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[35m (622.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+Completed 201 Created in 628ms (Views: 0.7ms | ActiveRecord: 622.5ms | Allocations: 3621)
+
+
+Started GET "/users" for ::1 at 2019-09-02 15:02:54 -0500
+Processing by UsersController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.1ms | Allocations: 1453)
+
+
+Started POST "/users" for ::1 at 2019-09-02 15:12:56 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"email"=>"admin1@gmail.com", "first_name"=>"admin", "last_name"=>"admin", "document_type"=>"CC", "document_number"=>9999, "phone"=>0, "rol"=>"administrador"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "admin1@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+Completed 422 Unprocessable Entity in 901ms (Views: 0.8ms | ActiveRecord: 0.5ms | Allocations: 12916)
+
+
+Started GET "/vehicles" for ::1 at 2019-09-02 15:15:20 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by VehiclesController#index as */*
+  [1m[36mVehicle Load (0.1ms)[0m  [1m[34mSELECT "vehicles".* FROM "vehicles"[0m
+  ↳ app/controllers/vehicles_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.4ms | Allocations: 2560)
+
+
+Started POST "/vehicles" for ::1 at 2019-09-02 15:15:31 -0500
+Processing by VehiclesController#create as */*
+  Parameters: {"tariff"=>{"code"=>"110", "year"=>"2017", "vehicle_class"=>"Motos", "subtype"=>"Menos de 100 c.c.", "age"=>"", "commercial_rate"=>"8,26", "premium_value"=>"203100", "fosyga_contribution"=>"101550", "subtotal_premium_and_contribution"=>"304650", "runt_rate"=>"1,610", "total_to_pay"=>"306260"}, "vehicle"=>{}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.2ms | Allocations: 143)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: vehicle):
+  
+app/controllers/vehicles_controller.rb:49:in `vehicle_params'
+app/controllers/vehicles_controller.rb:18:in `create'
+Started POST "/vehicles" for ::1 at 2019-09-02 15:16:28 -0500
+Processing by VehiclesController#create as */*
+  Parameters: {"vehicle"=>{"vehicle_class"=>"110", "subtype"=>"2017", "age"=>"", "number_passengers"=>"Menos de 100 c.c.", "cylinder"=>"8,26", "tons"=>"203100"}}
+Completed 422 Unprocessable Entity in 7ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 6106)
+
+
+Started POST "/vehicles" for ::1 at 2019-09-02 15:16:35 -0500
+Processing by VehiclesController#create as */*
+  Parameters: {"vehicle"=>{"vehicle_class"=>"110", "subtype"=>"2017", "age"=>"", "number_passengers"=>"Menos de 100 c.c.", "cylinder"=>"8,26", "tons"=>"203100"}}
+Completed 422 Unprocessable Entity in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 720)
+
+
+Started POST "/vehicles" for ::1 at 2019-09-02 15:16:40 -0500
+Processing by VehiclesController#create as */*
+  Parameters: {"vehicle"=>{"vehicle_class"=>"110", "subtype"=>"2017", "age"=>"", "number_passengers"=>"Menos de 100 c.c.", "cylinder"=>"8,26", "tons"=>"203100"}}
+Completed 422 Unprocessable Entity in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 722)
+
+
+Started POST "/vehicles" for ::1 at 2019-09-02 15:17:12 -0500
+Processing by VehiclesController#create as */*
+  Parameters: {"vehicle"=>{"vehicle_class"=>"110", "subtype"=>"2017", "age"=>"", "number_passengers"=>"Menos de 100 c.c.", "cylinder"=>"8,26", "tons"=>"203100"}}
+Completed 422 Unprocessable Entity in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 720)
+
+
+Started POST "/vehicles" for ::1 at 2019-09-02 15:18:12 -0500
+Processing by VehiclesController#create as */*
+  Parameters: {"vehicle"=>{"vehicle_class"=>"110", "subtype"=>"2017", "number_passengers"=>"Menos de 100 c.c.", "age"=>"", "cylinder"=>"8,26", "tons"=>"203100"}}
+Completed 422 Unprocessable Entity in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 720)
+
+
+Started POST "/vehicles" for ::1 at 2019-09-02 15:18:24 -0500
+Processing by VehiclesController#create as */*
+  Parameters: {"vehicle"=>{"vehicle_class"=>"110", "subtype"=>"2017", "number_passengers"=>"Menos de 100 c.c.", "age"=>"", "cylinder"=>"8,26", "tons"=>"203100"}}
+Completed 422 Unprocessable Entity in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 720)
+
+
+Started POST "/vehicles" for ::1 at 2019-09-02 15:18:31 -0500
+Processing by VehiclesController#create as */*
+  Parameters: {"vehicle"=>{"vehicle_class"=>"110", "subtype"=>"2017", "number_passengers"=>"Menos de 100 c.c.", "age"=>2, "cylinder"=>"8,26", "tons"=>"203100"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/vehicles_controller.rb:20:in `create'
+  [1m[36mVehicle Create (0.6ms)[0m  [1m[32mINSERT INTO "vehicles" ("vehicle_class", "subtype", "age", "number_passengers", "cylinder", "tons", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["vehicle_class", "110"], ["subtype", "2017"], ["age", 2], ["number_passengers", 0], ["cylinder", 8], ["tons", 203100], ["created_at", "2019-09-02 20:18:31.603223"], ["updated_at", "2019-09-02 20:18:31.603223"]]
+  ↳ app/controllers/vehicles_controller.rb:20:in `create'
+  [1m[35m (116.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/vehicles_controller.rb:20:in `create'
+Completed 201 Created in 129ms (Views: 1.1ms | ActiveRecord: 116.9ms | Allocations: 3643)
+
+
+Started GET "/vehicles" for ::1 at 2019-09-02 15:18:37 -0500
+Processing by VehiclesController#index as */*
+  [1m[36mVehicle Load (0.1ms)[0m  [1m[34mSELECT "vehicles".* FROM "vehicles"[0m
+  ↳ app/controllers/vehicles_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.1ms | Allocations: 928)
+
+
+Started GET "/insurances" for ::1 at 2019-09-02 15:27:56 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by InsurancesController#index as */*
+  [1m[36mInsurance Load (0.1ms)[0m  [1m[34mSELECT "insurances".* FROM "insurances"[0m
+  ↳ app/controllers/insurances_controller.rb:8:in `index'
+Completed 200 OK in 22ms (Views: 3.0ms | ActiveRecord: 0.5ms | Allocations: 3249)
+
+
+Started POST "/insurances" for ::1 at 2019-09-02 15:28:04 -0500
+Processing by InsurancesController#create as */*
+  Parameters: {"vehicle"=>{"vehicle_class"=>"110", "subtype"=>"2017", "number_passengers"=>"Menos de 100 c.c.", "age"=>2, "cylinder"=>"8,26", "tons"=>"203100"}, "insurance"=>{}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 138)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: insurance):
+  
+app/controllers/insurances_controller.rb:49:in `insurance_params'
+app/controllers/insurances_controller.rb:18:in `create'

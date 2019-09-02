@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  vehicle_class: MyString
+  subtype: MyString
+  age: 1
+  number_passengers: 1
+  cylinder: 1
+  tons: 1
+
+two:
+  vehicle_class: MyString
+  subtype: MyString
+  age: 1
+  number_passengers: 1
+  cylinder: 1
+  tons: 1
